@@ -31,5 +31,3 @@ int main()
     return 0;
 
 }
-/* https://www.lynda.com/C-tutorials/Using-void-data-type/164457/180349-4.html?autoplay=true
-https://app.pluralsight.com/player?name=git-fundamentals-m0&clip=2&course=git-fundamentals&author=james-kovacs*/
