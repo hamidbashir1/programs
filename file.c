@@ -8,9 +8,9 @@ void writeToFile(void);
 int main(void)
 {
     readEntireFile();
-    /*printf("\n--------------------------------\n");
+    printf("\n--------------------------------\n");
     readUntilMarker('m');
-    writeToFile(void);*/
+    writeToFile();
 
     return EXIT_SUCCESS;
 }
@@ -19,7 +19,7 @@ void readEntireFile()
 {
     int ch;
     FILE *fp;
-    fp = fopen("/file/pathname", "r");
+    fp = fopen("/var/www/projects/message", "r");
     ch = getc(fp);
     while(ch != EOF);
     {
@@ -33,7 +33,7 @@ void readUntilMarker(char marker)
 {
      int ch;
     FILE *fp;
-    fp = fopen("/file/pathname", "r");
+    fp = fopen("/var/www/projects/message", "r");
     ch = getc(fp);
     while(ch != marker);
     {

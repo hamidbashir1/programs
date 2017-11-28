@@ -6,11 +6,12 @@ int main(void)
     int *dynamicArray = malloc(20 * sizeof(int));
 
     *dynamicArray = 10;
-    printf("Address %p stores value: %d\n", dynamicArray , *dynamicArray);
+    printf("---------------------------------------\n");
+    printf("\nAddress %p stores value: %d\n", dynamicArray , *dynamicArray);
 
     dynamicArray[1] = 20;
-    printf("dynamicArray[1] stores value %d\n",dynamicArray[1]);
-    printf("The size of dynamicArray is %lu\n", sizeof(dynamicArray));
+    printf("\ndynamicArray[1] stores value %d\n",dynamicArray[1]);
+    printf("\nThe size of dynamicArray is %lu\n\n", sizeof(dynamicArray));
 
     free(dynamicArray);
 

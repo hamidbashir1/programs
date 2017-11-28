@@ -6,7 +6,7 @@ struct emp
     char name[10] ;
     int basicPay, allowances, deduction, netPay ;
 } e[10] ;
-void main()
+void main(void)
 {
     int i, n ;
     printf("Enter the number of employees : ") ;
