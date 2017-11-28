@@ -14,7 +14,8 @@ void main()
     for(i = 0 ; i < n ; i++)
     {
         printf("\nEnter the employee number : ") ;
-        scanf("%d", &e[i].empno) ;
+        gets(e[i].name);
+        //scanf("%d", &e[i].empno) ;
         printf("\nEnter the name : ") ;
         scanf("%s", e[i].name) ;
         printf("\nEnter the basic pay, allowances & deductions : ") ;
