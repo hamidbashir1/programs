@@ -10,12 +10,12 @@ int main(void)
     readEntireFile();
     printf("\n--------------------------------\n");
     readUntilMarker('m');
-    writeToFile();
+    writeToFile(void);
 
     return EXIT_SUCCESS;
 }
 
-void readEntireFile()
+void readEntireFile(void)
 {
     int ch;
     FILE *fp;
@@ -47,7 +47,7 @@ void writeToFile(void)
 {
     int i;
     FILE *fp;
-    fp = fopen("/Home/Desktop/area.c" , "w");
+    fp = fopen("/var/www/projects/message" , "w");
     char name[10] = "Hamid";
     fprintf(fp,"This message is for %s\n",name);
     fclose(fp);
