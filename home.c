@@ -5,6 +5,7 @@ void newsFeed();
 void profile();
 void notifications();
 void settings();
+void messages();
 void logOut();
 
 void main(void)
@@ -25,7 +26,7 @@ void main(void)
       if(a==0&&b==0)
       {
         
-        printf("\n1. HOME\t\t2. NEWSFEED\t\t3. PROFILE\t\t4. NOTIFICATIONS\t\t5. SETTINGS\t\t6. LOG OUT\n\n");
+        printf("\n\t\t  1. HOME\t2. NEWSFEED\t3. PROFILE\t4. NOTIFICATIONS\t5. SETTINGS\t6. MESSAGES\t7. LOG OUT\n\n");
 
     while(X)
     {
@@ -74,6 +75,7 @@ void main(void)
 void home()
 {
     printf("\t\t\tWelcome to Home page of our website\n\n");
+    
 
 }
 
@@ -84,7 +86,8 @@ void newsFeed()
    
 void profile()
 {
-
+    printf("\n\t\tYou are on your profile\n\n");
+    printf("hi");
 }
 
 void notifications()
@@ -94,7 +97,12 @@ void notifications()
 
 void settings()
 {
+    
+}
 
+void messages()
+{
+    printf("Say Hello! to your friends...");
 }
 
 void logOut()
