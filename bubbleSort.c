@@ -17,7 +17,7 @@ int main(void)
  
   bubble_sort(array, n);
  
-  printf("Sorted list in ascending order:\n");
+  printf("Sorted list in ascending order is as follows:\n");
  
   for ( c = 0 ; c < n ; c++ )
      printf("%ld\n", array[c]);
