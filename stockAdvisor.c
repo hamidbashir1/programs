@@ -17,7 +17,7 @@ int main(void)
 
 double askStockValue(void)
 {
-    printf("What is the current stock value?");
+    printf("What is the current stock in the market value?");
     double value;
     scanf("%lf",&value);
     return value;
