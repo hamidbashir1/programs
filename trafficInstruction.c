@@ -46,6 +46,7 @@ void processColor(char color)
 void stopDriving()
 {
     printf("You must stop the car now\n");
+    printf("Else you will be fined!");
 }
 
 void getReady()
