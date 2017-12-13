@@ -96,14 +96,7 @@ void Create_new_account()
    printf("\nEnter the account holder address : ");
    scanf("%s", &acc_holder_address);
  
-   strcpy(account[acc_number-1].bank_name,bank_name);
-   strcpy(account[acc_number-1].bank_branch,bank_branch);
-   strcpy(account[acc_number-1].acc_holder_name,
-   acc_holder_name);
-   account[acc_number-1].acc_number=acc_number;
-   strcpy(account[acc_number-1].acc_holder_address,
-   acc_holder_address);
-   account[acc_number-1].available_balance=available_balance;
+
  
    printf("\nAccount has been created successfully \n\n");
    printf("Bank name              : %s \n" , 

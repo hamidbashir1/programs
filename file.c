@@ -10,7 +10,7 @@ int main(void)
     readEntireFile();
     printf("\n--------------------------------\n");
     readUntilMarker('m');
-    writeToFile(void);
+    writeToFile();
 
     return EXIT_SUCCESS;
 }
